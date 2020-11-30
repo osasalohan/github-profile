@@ -37,7 +37,7 @@ fetch(githubAPI, {
   method: "post",
   headers: {
     "Content-Type": "application/json",
-    Authorization: "token 6d47aef4fdb990414aff11a8fe59614ff32a5e84",
+    Authorization: "token <token>",
   },
   body: JSON.stringify({
     query: `query { 
