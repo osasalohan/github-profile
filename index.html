@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/2467f35223.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="navbar">
+        <div class="navbar-nav">
+          <div class="navbar-toggle navbar-link">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="navbar-brand navbar-link">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="navbar-link">
+            <i class="far fa-bell"></i><span class="notification"></span>
+          </div>
+        </div>
+        <div class="navbar-responsive navbar-brand navbar-link">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="navbar-responsive navbar-items-left">
+          <div class="nav-input-wrapper">
+            <input
+              class="nav-input"
+              type="text"
+              placeholder="Search or jump to..."
+            />
+            <span class="nav-input-icon">/</span>
+          </div>
+          <div class="navbar-link hidden">Dashboard</div>
+          <div class="navbar-link pull">Pull requests</div>
+          <div class="navbar-link">Issues</div>
+          <div class="navbar-link">Marketplace</div>
+          <div class="navbar-link">Explore</div>
+          <div class="navbar-link hidden">
+            <div class="avatar-container">
+              <div class="avatar">
+                <img src="" />
+              </div>
+              <span class="user"></span>
+            </div>
+          </div>
+          <div class="navbar-link hidden">
+            <i class="fas fa-sign-out-alt"></i><span>Sign out</span>
+          </div>
+        </div>
+        <div class="navbar-responsive navbar-items-right">
+          <div class="navbar-link">
+            <i class="far fa-bell"></i><span class="notification"></span>
+          </div>
+          <div class="navbar-link dropdown repo-dropdown">
+            <i class="fas fa-plus"></i><i class="fas fa-caret-down"></i>
+            <div class="dropdown-content repo-dropdown-content">
+              <div class="navbar-link">New repository</div>
+              <div class="navbar-link">Import repository</div>
+              <div class="navbar-link">New gist</div>
+              <div class="navbar-link">New organisation</div>
+              <div class="navbar-link">New project</div>
+            </div>
+          </div>
+          <div class="navbar-link dropdown profile-dropdown">
+            <div class="avatar">
+              <img src="" />
+            </div>
+            <i class="fas fa-caret-down"></i>
+            <div class="dropdown-content profile-dropdown-content">
+              <div class="navbar-link authenticated">
+                Signed in as <strong><span class="user"></span></strong>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="navbar-link status">
+                <div class="status-container">
+                  <i class="far fa-smile"></i><span>Set status</span>
+                </div>
+              </div>
+              <div class="dropdown-divider"></div>
+              <div class="navbar-link">Your profile</div>
+              <div class="navbar-link">Your repositories</div>
+              <div class="navbar-link">Your projects</div>
+              <div class="navbar-link">Your stars</div>
+              <div class="navbar-link">Your gists</div>
+              <div class="dropdown-divider"></div>
+              <div class="navbar-link">Upgrade</div>
+              <div class="navbar-link">Feature preview</div>
+              <div class="navbar-link">Help</div>
+              <div class="navbar-link">Settings</div>
+              <div class="navbar-link">Sign out</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar-container">
+          <div class="avatar">
+            <img src="" />
+          </div>
+          <div class="profile-info">
+            <div class="full-name"></div>
+            <div class="user"></div>
+          </div>
+        </div>
+        <div class="status-container">
+          <i class="far fa-smile"></i><span>Set status</span>
+        </div>
+        <div class="bio"></div>
+      </div>
+      <div class="repo-navbar">
+        <div class="repo-navbar-profile">
+          <div class="repo-nav-item scroll-hide">
+            <div class="avatar-container">
+              <div class="avatar">
+                <img src="" />
+              </div>
+              <span class="user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="repo-navbar-nav">
+          <div class="repo-nav-item">
+            <i class="fas fa-book-open"></i><span>Overview</span>
+          </div>
+          <div class="repo-nav-item repos-tab">
+            <i class="fas fa-book"></i><span>Repositories</span
+            ><span class="repos-count"></span>
+          </div>
+          <div class="repo-nav-item">
+            <i class="far fa-chart-bar"></i><span>Projects</span>
+          </div>
+          <div class="repo-nav-item">
+            <i class="fas fa-cube"></i><span>Packages</span>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="profile-full">
+          <div class="avatar-container">
+            <div class="avatar">
+              <img src="" />
+            </div>
+            <div class="round">
+              <i class="far fa-smile"></i>
+            </div>
+          </div>
+          <div class="profile-main">
+            <div class="profile-main-info">
+              <div class="full-name"></div>
+              <div class="user"></div>
+            </div>
+            <div class="bio"></div>
+          </div>
+        </div>
+        <div class="repos">
+          <div class="repos-input-container">
+            <input class="repos-input" placeholder="Find a repository..." />
+          </div>
+          <div class="repos-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
